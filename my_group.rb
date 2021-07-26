@@ -6,14 +6,24 @@ my_group = []
 # 4. gender
 # 5. age
 
-person_1 = {name: "Johnny", gender: "male", age: 29}
+person_1 = {name: "Johnny", gender: "man", age: 29}
 
-person_2 = {name: "Emelie", gender: "female", age: 28}
+person_2 = {name: "Emelie", gender: "woman", age: 28}
 
-person_3 = {name: "Celine", gender: "female", age: 2}
+person_3 = {name: "Celine", gender: "girl", age: 2}
 
 # 6. Add all people to your my_group array.
 
 my_group = [person_1, person_2, person_3]
 
 # 7. Do everything in IRB but also save it into your my_group.rb. Commit everything and push it up to your Github Repo. We'll be returning to this example later on.
+
+# iterate through the array of hashes and display for example Thomas is a 44 years old man.
+
+puts person_1[:name] + ' is a ' + person_1[:age].to_s + ' years old ' + person_1[:gender]
+
+puts person_2[:name] + ' is a ' + person_2[:age].
+to_s + ' years old ' + person_2[:gender]
+
+puts person_3[:name] + ' is a ' + person_3[:age].
+to_s + ' years old ' + person_3[:gender]
